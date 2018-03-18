@@ -159,3 +159,445 @@ nav ul li.spacer{
     font-weight: 800;
     padding: 0 14px;
 }
+.centre .navitems a:hover{
+   color: red;
+}
+/*京东中部开始*/
+.main{
+    height: 480px;
+}
+.main .col1{
+    width: 190px;
+    height: 480px;
+    float: left;
+    background-color: #6e6568;
+}
+.main .col1 ul{
+    padding: 20px 0;
+}
+.main .col1 ul li{
+    height: 30px;
+    padding: 0 12px;
+    line-height: 30px;
+}
+.main .col1 ul li:hover{
+    background-color: #aaa;
+}
+.main .col1 ul li a{
+    font-size: 14px;
+    color: #fff;
+}
+.main .col1 ul li u{
+    font-size: 14px;
+    color: #fff;
+}
+.main .col2{
+    width: 790px;
+    height: 480px;
+    float: left;
+    margin: 0 10px;
+}
+.main .col2 .slide{
+    height: 340px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.main .col2 .slide .rl a{
+    font-family: SimSun;
+    font-size: 30px;
+    line-height: 36px;
+    height: 36px;
+    width: 20px;
+    color: #f6f6f6;
+    background-color: #333333;
+    opacity: 0.7;
+    position: absolute;
+}
+.main .col2 .slide .rl a.r{
+    right: 0;
+    top: 50%;
+    margin-top: -18px;
+}
+.main .col2 .slide .rl a.l{
+    top: 50%;
+    left: 0;
+    margin-top: -18px;
+}
+.main .col2 .slide ul{
+    width: 188px;
+    height: 20px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -94px;
+}
+.main .col2 .slide ul li{
+    float: left;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin: 2px 4px;
+    background-color: #fff;
+}
+.main .col2 .slide ul li.now{
+    background-color: red;
+}
+.main .col2 .lazying{
+    height: 130px;
+}
+.main .col2 .lazying a:first-child{
+    margin-right: 5px;
+}
+.main .col3{
+    width: 190px;
+    height: 480px;
+    float: left;
+}
+.main .col3 .user{
+    height: 85px;
+    background-color: #fff;
+    margin-bottom: 1px;
+    padding: 15px;
+}
+.main .col3 .user .top a.img{
+    float: left;
+    height: 42px;
+    width: 42px;
+    border: 1px solid #c9a65b;
+    padding: 3px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+.main .col3 .user .top a.img img{
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+}
+.main .col3 .user .top .logo{
+    float: left;
+}
+.main .col3 .user .top .logo p{
+    font-size: 14px;
+    line-height: 22px;
+    color: #666;
+}
+.main .col3 .user .down{
+    padding: 10px 0 16px 0;
+}
+.main .col3 .user .down a{
+    display: block;
+    float: left;
+    height: 20px;
+    width: 70px;
+    background-color: #fff;
+    line-height: 20px;
+    text-align: center;
+    color: red;
+    border: 2px solid red;
+}
+.main .col3 .user .down a:first-child{
+    margin-right: 10px;
+}
+.main .col3 .news{
+    /*height: 140px;*/
+    background-color: #fff;
+    padding: 0 14px 14px 14px;
+}
+.main .col3 .news .title{
+    height: 25px;
+    border-bottom: 1px solid #e7e7e7;
+}
+.main .col3 .news .title a{
+    font-size: 14px;
+    line-height: 30px;
+}
+.main .col3 .news .title a.now{
+    border-bottom: 2px solid red;
+}
+.main .col3 .news ul{
+    padding-top: 14px;
+}
+.main .col3 .news ul li a{
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+}
+.main .col3 .service{
+    height: 210px;
+    width: 190px;
+    overflow: hidden;
+    background-color: #fff;
+}
+.main .col3 .service ul{
+    width: 192px;
+}
+.main .col3 .service ul li{
+    width: 47px;
+    height: 69px;
+    float: left;
+    border-top: 1px solid #e7e7e7;
+    border-right: 1px solid #e7e7e7;
+    /*background-color: #666;*/
+}
+.main .col3 .service ul li a img{
+    display: block;
+    margin: 8px auto;
+    height: 26px;
+    width: 24px;
+    background: url("../images/sprite_fs@1x.png") 0 -86px no-repeat;
+}
+.main .col3 .service ul li a p{
+    text-align: center;
+}
+/*京东中部结束*/
+/*京东floors部分开始*/
+.floors{
+    margin-top: 10px;
+}
+.floors>div{
+    height: 305px;
+}
+.floors div .top{
+    height: 55px;
+    padding-left: 72px;
+    padding-right: 20px;
+    background: url("../images/seckill_hd.png");
+    position: relative;
+}
+.floors div .top .icon1{
+    height: 28px;
+    width: 28px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url("../images/seckill.png") -195px -52px no-repeat;
+}
+.floors div .top .icon2{
+    height: 40px;
+    width: 34px;
+    position: absolute;
+    top: 8px;
+    left: 30px;
+    background: url("../images/seckill.png") 0 -39px no-repeat;
+}
+.floors div .top h4{
+    height: 55px;
+    line-height: 55px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+    margin-right: 10px;
+}
+.floors div .top p{
+    height: 55px;
+    float: left;
+    margin-right: 5px;
+    line-height: 65px;
+    color: #fff;
+}
+.floors div .top .icon3{
+    float: left;
+    height: 16px;
+    width: 15px;
+    margin-top: 25px;
+    background: url("../images/seckill.png") -154px -40px no-repeat;
+}
+.floors div .top .clock span{
+    height: 55px;
+    float: left;
+    line-height: 65px;
+    color: #fff;
+}
+.floors div .top .clock .img{
+    height: 37px;
+    width: 130px;
+    margin: 12px 5px 0;
+    background-color: #fff;
+}
+.floors div .down{
+    padding: 12px 0;
+    background-color: #fff;
+}
+.floors div .down ul{
+    position: relative;
+}
+.floors div .down ul li{
+    float: left;
+    height: 225px;
+    width: 199px;
+    border-right: 1px solid #e7e7e7;
+}
+.floors div .down ul .rl a{
+    font-family: SimSun;
+    font-size: 30px;
+    line-height: 40px;
+    height: 40px;
+    width: 20px;
+    color: #f6f6f6;
+    background-color: #666;
+    opacity: 0.5;
+    position: absolute;
+}
+.floors div .down ul .rl a:hover{
+    opacity: 1;
+}
+.floors div .down ul .rl a.r{
+    right: 10px;
+    top: 50%;
+    margin-top: -20px;
+}
+.floors div .down ul .rl a.l{
+    top: 50%;
+    left: 10px;
+    margin-top: -20px;
+}
+.floors div .down ul li a{
+    display: block;
+    padding: 0 5px;
+}
+.floors div .down ul li a img{
+    display: block;
+    margin: 0 auto;
+}
+.floors div .down ul li a p{
+    margin-top: 15px;
+    line-height: 25px;
+    font-size: 14px;
+}
+.floors div .down ul li a span{
+    font-size: 18px;
+    padding: 10px 5px 5px 15px;
+    color: red;
+}
+/*京东floors部分结束*/
+/*京东foot部分开始*/
+.foot{
+    height: 500px;
+    background-color: #eaeaea;
+}
+.foot>div:first-child{
+    border-bottom: 1px solid #dedede;
+}
+.foot .service{
+    height: 42px;
+    padding: 30px 0;
+    /*background-color: #fff;*/
+}
+.foot .service ul li{
+    width: 25%;
+    height: 42px;
+    float: left;
+    /*background-color: red;*/
+    position: relative;
+}
+.foot .service ul li h3{
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    padding-left: 36px;
+}
+.foot .service ul li h3 span{
+    background: url("../images/ico_service.png") 0 0 no-repeat;
+    height: 42px;
+    width: 36px;
+    position: absolute;
+    top: 0;
+    left: 12%;
+}
+.foot .service ul li:nth-child(2) h3 span{
+    background-position: 0 -42px;
+}
+.foot .service ul li:nth-child(3) h3 span{
+    background-position: 0 -85px;
+}
+.foot .service ul li:nth-child(4) h3 span{
+    background-position: 0 -128px;
+}
+.foot .help{
+    height: 200px;
+    border-bottom: 1px solid #dedede;
+    /*background-color: #fff;*/
+}
+.foot .help ul li{
+    padding-top: 17px;
+    float: left;
+    width: 198px;
+    height: 183px;
+    /*background-color: red;*/
+}
+.foot .help ul li h5{
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+}
+.foot .help ul li p{
+    height: 22px;
+    line-height: 22px;
+    font-size: 12px;
+}
+.foot .help .map{
+    margin-top: 17px;
+    width: 200px;
+    height: 150px;
+    margin-bottom: 33px;
+    background: url("../images/ico_footer.png") 0 0 no-repeat;
+}
+.foot .help .map h5{
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+}
+.foot .help .map p{
+    font-size: 12px;
+    line-height: 20px;
+}
+.foot .help .map a{
+    float: right;
+}
+.foot .grid_p{
+    text-align: center;
+    margin-top: 6px;
+    line-height: 38px;
+}
+.foot .grid_p a{
+    color: #000;
+}
+.foot .grid p a:hover{
+    color: red;
+}
+.foot .grid p span{
+    font-size: 8px;
+    color: #999;
+}
+.foot .grid .info p{
+    text-align: center;
+    line-height: 22px;
+    font-size: 12px;
+    color: #999;
+}
+.foot .grid .outh{
+    text-align: center;
+}
+.foot .grid .outh a{
+    display: inline-block;
+    height: 32px;
+    width: 103px;
+    background: url("../images/ico_footer.png") 0 -151px no-repeat;
+}
+.foot .grid .outh a:nth-child(2){
+    background-position: -104px -151px;
+}
+.foot .grid .outh a:nth-child(3){
+    background-position: -0 -184px;
+}
+.foot .grid .outh a:nth-child(4){
+    background-position: -104px -184px;
+}
+.foot .grid .outh a:nth-child(5){
+    background-position: -0 -217px;
+}
+.foot .grid .outh a:nth-child(6){
+    background-position: -104px -217px;
+}
+/*京东foot部分结束*/
